@@ -94,7 +94,11 @@ module.exports = {
       rel:'canonical',
       href:'snipcart_default_2.html'
 
+    },
+    {
+      href:'http://snipcart.com/blog',
     }
+ 
 
 
   ],

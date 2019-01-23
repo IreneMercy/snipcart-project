@@ -2,17 +2,18 @@
     <header>
         <nav class="ud-nav" data-ud-nav>
     <div data-mobile-helper></div>
-     <nuxt-link to="/">
-        <a class="ud-nav__logo" href="snipcart_default_2.html">
-        <img src="/images/snipcart_logo.svg" alt="Snipcart">
+
+    <a class="ud-nav__logo" href="snipcart_default_2.html">
+        <img src="images/snipcart_logo.svg" alt="Snipcart">
     </a>
-     </nuxt-link>
+
     <menu class="ud-nav__menu" data-nav-menu>
-                <nuxt-link to="/features"><li class="ud-nav__item" data-tray-control="Features">Features</li></nuxt-link>
-                <nuxt-link to="/resources"><li class="ud-nav__item" data-tray-control="Resources">Resources</li></nuxt-link>
-                <nuxt-link to="/pricing"> <li class="ud-nav__item"><a>Pricing</a></li></nuxt-link>
-                <nuxt-link to="/blog"><li class="ud-nav__item"><a>Blog</a></li></nuxt-link>
-                <nuxt-link to="/more"><li class="ud-nav__item" data-tray-control="More">More</li></nuxt-link>
+                <li class="ud-nav__item" data-tray-control="Features">Features</li>
+                <li class="ud-nav__item" data-tray-control="Resources">Resources</li>
+                <li class="ud-nav__item"><a href="pricing.htm">Pricing</a></li>
+                <li class="ud-nav__item"><a href="blog/blog.htm">Blog</a></li>
+
+            <li class="ud-nav__item" data-tray-control="More">More</li>
     </menu>
 
     <div class="ud-nav__users">
@@ -223,12 +224,3 @@
 </nav>
     </header>
 </template>
-
-<style (scoped)>
-.ud-nav__item a{
-    margin:10%;
-}
-.ud-nav__menu li{
-    margin:5px 5px 10px;
-}
-</style>

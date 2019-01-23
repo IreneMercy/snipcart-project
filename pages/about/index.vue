@@ -1,5 +1,5 @@
 <template>
-    <main class="main-content ">
+<main class="main-content ">
     <div class="page-top--with-image">
 
         <div class="page-top__inside content-wrapper">

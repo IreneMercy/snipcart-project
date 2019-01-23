@@ -21,7 +21,7 @@
                                 data-item-name="The Geek Shirt"
                                 data-item-price="20.00"
                                 data-item-id="42"
-                                data-item-url="https://snipcart.com/"
+                                data-item-url="/https://snipcart.com/"
 data-item-description="Be the coolest geek in town with this awesome shirt."
 data-item-image="https://i.imgur.com/BbCiBGg.png"
 data-item-custom1-name="Size"
@@ -36,7 +36,7 @@ data-item-custom1-value="Medium"
                             <div class="home__slide__browser-button"></div>
                             <div class="home__slide__browser-button"></div>
                         </div>
-                        <img class="home__slide__browser-image" src="media/203711/snipcart-shopping-cart-on-c-est-beau-e-commerce-site.png" alt="Snipcart Shopping Cart on C&#39;est Beau E-Commerce Site.png" />
+                        <img class="home__slide__browser-image" src="/media/203711/snipcart-shopping-cart-on-c-est-beau-e-commerce-site.png" alt="Snipcart Shopping Cart on C&#39;est Beau E-Commerce Site.png" />
                     </div>
                     <div class="home__slide__case-study-text">
                         <a href="blog/case-study-deux-huit-huit-custom-integration.htm" class="home__slide__option__link">C&#39;est Beau</a> powers custom e-commerce with Snipcart
@@ -259,35 +259,6 @@ data-item-custom1-value="Medium"
             </div>
 
     </div>
-    <script>
-        (function manageAnims() {
-            'use strict';
-            var anims = document.querySelectorAll('.js-anim');
-            var buffer = false;
-            var animsRun = 0;
-            var checkAnims = (function () {
-                var height = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
-                for (var i = 0; i < anims.length; i++) {
-                    var node = anims[i];
-                    var rect = node.getBoundingClientRect();
-                    var hasRun = anims[i].style.animationPlayState === 'running';
-                    var isInView = rect.bottom < height && rect.top > 0;
-                    if (!hasRun && isInView) {
-                        node.style.animationPlayState = 'running';
-                        animsRun++;
-                    }
-                }
-                if (animsRun === anims.length) window.removeEventListener('scroll', requestBuffer);
-                buffer = false;
-            });
-            var requestBuffer = (function () {
-                if (!buffer) requestAnimationFrame(checkAnims);
-                buffer = true;
-            });
-            window.addEventListener('scroll', requestBuffer);
-        })();
-    </script>
-
 
     <div class="testimonials section stretchable-section">
 
@@ -312,7 +283,7 @@ data-item-custom1-value="Medium"
                             <div class="testimonial__author-wrapper">
                                 <div class="testimonial__author clear">
                                         <div class="testimonial__author__image">
-                                            <img src="media/203628/nic-brassard-snipcart-testimonial.jpg" alt="" />
+                                            <img src="/media/203628/nic-brassard-snipcart-testimonial.jpg" alt="" />
                                         </div>
                                     
                                     <div class="testimonial__author__id">
@@ -336,7 +307,7 @@ data-item-custom1-value="Medium"
                             <div class="testimonial__author-wrapper">
                                 <div class="testimonial__author clear">
                                         <div class="testimonial__author__image">
-                                            <img src="media/203629/pl-cossette-snipcart-testimonial.jpeg" alt="" />
+                                            <img src="/media/203629/pl-cossette-snipcart-testimonial.jpeg" alt="" />
                                         </div>
                                     
                                     <div class="testimonial__author__id">
@@ -360,7 +331,7 @@ data-item-custom1-value="Medium"
                             <div class="testimonial__author-wrapper">
                                 <div class="testimonial__author clear">
                                         <div class="testimonial__author__image">
-                                            <img src="media/203537/dillon-morton.jpg" alt="" />
+                                            <img src="/media/203537/dillon-morton.jpg" alt="" />
                                         </div>
                                     
                                     <div class="testimonial__author__id">

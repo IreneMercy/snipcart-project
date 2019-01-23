@@ -43,8 +43,12 @@
                                     <span class="footer__nav__section__link">Features</span>
 
                                 <nav class="footer__nav__section__nav">
-                                        <a href="ecommerce-integration.htm" class="footer__nav__section__nav__link">E-commerce integration</a>
-                                        <a href="features/fast-shopping-cart.htm" class="footer__nav__section__nav__link">Quick set up</a>
+                                    <nuxt-link to="features/ecommerceIntergration">
+                                       <a class="footer__nav__section__nav__link">E-commerce integration</a>
+                                    </nuxt-link>
+                                    <nuxt-link to="features/fastShopping">
+                                        <a class="footer__nav__section__nav__link">Quick set up</a>
+                                    </nuxt-link>
                                         <a href="custom-shopping-cart.htm" class="footer__nav__section__nav__link">Customization</a>
                                         <a href="features/ecommerce-api.htm" class="footer__nav__section__nav__link">API &amp; webhooks</a>
                                         <a href="ecommerce-inventory-management.htm" class="footer__nav__section__nav__link">Inventory management</a>

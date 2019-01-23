@@ -1,6 +1,5 @@
 <template>
-    
-<main class="main-content posts">
+        <main class="main-content posts">
 
         
 
@@ -10,9 +9,14 @@
 
         <div class="page-top__inside content-wrapper">
 
-                <h1 class="page-title">Snipcart Blog</h1>
+                <h1 class="page-title">Dynamic & flat-file CMS integrations</h1>
 
 
+                <div class="page-top__intro rte">
+                    <p>This blog category is filled with tutorials on how to add a customizable layer of e-commerce to many CMS. You'll find actionable steps, code samples, and GitHub repos to integrate Snipcart's shopping cart on top of popular CMS like WordPress, along with flat-file CMS like Kirby CMS. If you'd like us to craft a tutorial for a specific platform, use the form on our <a href="../../community-integrations.htm">Community &amp; Integrations page</a>!</p>
+
+
+                </div>
 
         </div>
 
@@ -31,12 +35,11 @@
          <nuxt-link to="blog/cms">
              <a class="blog-category cms-css">#cms</a>
          </nuxt-link>
-         <nuxt-link to="blog/jamstack">
+         <nuxt-link to="/jamstack">
              <a class="blog-category jamstack-css">#jamstack</a>
          </nuxt-link>
-        
-        <a class="blog-category developersden-css" href="blog/categories/developersden.html">#developersden</a>
-        <a class="blog-category snipcart-css" href="blog/categories/snipcart.html">#snipcart</a>
+        <a class="blog-category developersden-css" href="developersden.htm">#developersden</a>
+        <a class="blog-category snipcart-css" href="snipcart.htm">#snipcart</a>
 </div>
 
 <div class="normal-content posts">
@@ -47,157 +50,7 @@
                     <div class="content-section">
                         <div class="content-wrapper post-wrapper clear">
                             <div class="posts__elem__image" data-same-height="">
-                                    <img src="media/203625/jamstack.png"
-                                         data-image-small="/media/203625/jamstack.png"
-                                         data-medium-image="/media/203625/jamstack.png"
-                                         data-large-image="/media/203625/jamstack.png" alt="jamstack-snipcart-blog"/>
-                            </div>
-                            <div class="posts__elem__info" data-same-height="">
-                                <div class="posts__elem__info__inside">
-                                    <h2 class="posts__elem__info__title">
-                                        <a href="blog/jamstack_2.htm">New to JAMstack? Everything You Need to Know to Get Started</a>
-                                    </h2>
-
-<div class="post__author--listing">
-    <div class="post__author__header clear">
-
-        <span class="post__author__name post__author__listing__name">Mathieu Dionne</span>
-
-            <span class="post__author__job"> | Content &amp; Marketing</span>
-    </div>
-</div>                                    <div class="posts__elem__info__sub">
-                                            <p>Interested in the JAMstack? Start here. We cover everything from the basics to the best ways to get started &amp; to sell it to clients. Bonus: a curated list of JAMstack resources.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="posts__elem clear block-link" data-same-height-elems="false">
-                    <div class="content-section">
-                        <div class="content-wrapper post-wrapper clear">
-                            <div class="posts__elem__image" data-same-height="">
-                                    <img src="media/203624/devden.png"
-                                         data-image-small="/media/203624/devden.png"
-                                         data-medium-image="/media/203624/devden.png"
-                                         data-large-image="/media/203624/devden.png" alt="solar-system-snipcart-blog"/>
-                            </div>
-                            <div class="posts__elem__info" data-same-height="">
-                                <div class="posts__elem__info__inside">
-                                    <h2 class="posts__elem__info__title">
-                                        <a href="blog/vuejs-graphql-airtable-example.htm">Leveraging Vue.js &amp; GraphQL with Gridsome (Airtable Database Example)</a>
-                                    </h2>
-
-<div class="post__author--listing">
-    <div class="post__author__header clear">
-
-        <span class="post__author__name post__author__listing__name">Jean-Sebastien Tremblay</span>
-
-            <span class="post__author__job"> | Developer</span>
-    </div>
-</div>                                    <div class="posts__elem__info__sub">
-                                            <p>Vue.js and GraphQL are two powerful modern JavaScript tools. Gridsome finally leverages both to build great websites &amp; apps. We used it to fetch data in Airtable with GraphQL for a neat Vue.js app.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="posts__elem clear block-link" data-same-height-elems="false">
-                    <div class="content-section">
-                        <div class="content-wrapper post-wrapper clear">
-                            <div class="posts__elem__image" data-same-height="">
-                                    <img src="media/1177/small_rocket.png"
-                                         data-image-small="/media/1177/small_rocket.png"
-                                         data-medium-image="/media/1177/small_rocket.png"
-                                         data-large-image="/media/1177/small_rocket.png" alt=""/>
-                            </div>
-                            <div class="posts__elem__info" data-same-height="">
-                                <div class="posts__elem__info__inside">
-                                    <h2 class="posts__elem__info__title">
-                                        <a href="blog/redux-middleware-example.htm">Exposing a Promise-Based API from a Reactive Core (v3.0 Journal)</a>
-                                    </h2>
-
-<div class="post__author--listing">
-    <div class="post__author__header clear">
-
-        <span class="post__author__name post__author__listing__name">Francis Cote</span>
-
-            <span class="post__author__job"> | Full Stack Developer</span>
-    </div>
-</div>                                    <div class="posts__elem__info__sub">
-                                            <p>In this post, we use our own development experience as a Redux middleware example. We leveraged it to expose a promise-based API from a reactive core. Learn how we pulled this off!</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="posts__elem clear block-link" data-same-height-elems="false">
-                    <div class="content-section">
-                        <div class="content-wrapper post-wrapper clear">
-                            <div class="posts__elem__image" data-same-height="">
-                                    <img src="media/203790/small_monitor.png"
-                                         data-image-small="/media/203790/small_monitor.png"
-                                         data-medium-image="/media/203790/small_monitor.png"
-                                         data-large-image="/media/203790/small_monitor.png" alt=""/>
-                            </div>
-                            <div class="posts__elem__info" data-same-height="">
-                                <div class="posts__elem__info__inside">
-                                    <h2 class="posts__elem__info__title">
-                                        <a href="blog/google-analytics-alerts.htm">Essential Google Analytics Alerts &amp; How to Set Them Up</a>
-                                    </h2>
-
-<div class="post__author--listing">
-    <div class="post__author__header clear">
-
-        <span class="post__author__name post__author__listing__name">Jean-Philippe Boily</span>
-
-            <span class="post__author__job"> | Founder of Metrics Watch</span>
-    </div>
-</div>                                    <div class="posts__elem__info__sub">
-                                            <p>Google Analytics custom alerts are money AND business savers. Learn what the essential GA alerts are and how to quickly set them up. Monitoring online performance &amp; sales is easy, so let&#39;s do it!</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="posts__elem clear block-link" data-same-height-elems="false">
-                    <div class="content-section">
-                        <div class="content-wrapper post-wrapper clear">
-                            <div class="posts__elem__image" data-same-height="">
-                                    <img src="media/1179/small_toolbox.png"
-                                         data-image-small="/media/1179/small_toolbox.png"
-                                         data-medium-image="/media/1179/small_toolbox.png"
-                                         data-large-image="/media/1179/small_toolbox.png" alt=""/>
-                            </div>
-                            <div class="posts__elem__info" data-same-height="">
-                                <div class="posts__elem__info__inside">
-                                    <h2 class="posts__elem__info__title">
-                                        <a href="blog/frontend-testing-cypress.htm">Modern Frontend Testing with Cypress.io Framework</a>
-                                    </h2>
-
-<div class="post__author--listing">
-    <div class="post__author__header clear">
-
-        <span class="post__author__name post__author__listing__name">Michael Yagudaev</span>
-
-            <span class="post__author__job"> | CEO &amp; Founder at Nano 3 Labs</span>
-    </div>
-</div>                                    <div class="posts__elem__info__sub">
-                                            <p>Learn how Cypress.io enables quality, comprehensive frontend testing for your modern web applications and sites. Code examples included.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="posts__elem clear block-link" data-same-height-elems="false">
-                    <div class="content-section">
-                        <div class="content-wrapper post-wrapper clear">
-                            <div class="posts__elem__image" data-same-height="">
-                                    <img src="media/1257/small_cart.png"
+                                    <img src="/media/1257/small_cart.png"
                                          data-image-small="/media/1257/small_cart.png"
                                          data-medium-image="/media/1257/small_cart.png"
                                          data-large-image="/media/1257/small_cart.png" alt=""/>
@@ -205,127 +58,7 @@
                             <div class="posts__elem__info" data-same-height="">
                                 <div class="posts__elem__info__inside">
                                     <h2 class="posts__elem__info__title">
-                                        <a href="blog/react-ecommerce-gatsby-tutorial_2.htm">E-Commerce for React Developers [w/ Gatsby Tutorial]</a>
-                                    </h2>
-
-<div class="post__author--listing">
-    <div class="post__author__header clear">
-
-        <span class="post__author__name post__author__listing__name">Maxime Laboissonniere</span>
-
-            <span class="post__author__job"> | Full Stack Developer</span>
-    </div>
-</div>                                    <div class="posts__elem__info__sub">
-                                            <p>Thinking of using React for e-commerce? Start here. We cover the framework&#39;s pros/cons + React-powered e-commerce solutions. Also included: full tutorial on how to build a Gatsby-powered store!</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="posts__elem clear block-link" data-same-height-elems="false">
-                    <div class="content-section">
-                        <div class="content-wrapper post-wrapper clear">
-                            <div class="posts__elem__image" data-same-height="">
-                                    <img src="media/1177/small_rocket.png"
-                                         data-image-small="/media/1177/small_rocket.png"
-                                         data-medium-image="/media/1177/small_rocket.png"
-                                         data-large-image="/media/1177/small_rocket.png" alt=""/>
-                            </div>
-                            <div class="posts__elem__info" data-same-height="">
-                                <div class="posts__elem__info__inside">
-                                    <h2 class="posts__elem__info__title">
-                                        <a href="blog/redux-vue.htm">How We Use Redux &amp; Redux-Observable with Vue (v3.0 Journal)</a>
-                                    </h2>
-
-<div class="post__author--listing">
-    <div class="post__author__header clear">
-
-        <span class="post__author__name post__author__listing__name">Jean-Sebastien Tremblay</span>
-
-            <span class="post__author__job"> | Developer</span>
-    </div>
-</div>                                    <div class="posts__elem__info__sub">
-                                            <p>Learn how we strapped Vue.js on top of Redux &amp; redux-observable for our shopping cart’s v3.0 rewrite.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="posts__elem clear block-link" data-same-height-elems="false">
-                    <div class="content-section">
-                        <div class="content-wrapper post-wrapper clear">
-                            <div class="posts__elem__image" data-same-height="">
-                                    <img src="media/203635/education.png"
-                                         data-image-small="/media/203635/education.png"
-                                         data-medium-image="/media/203635/education.png"
-                                         data-large-image="/media/203635/education.png" alt="education-snipcart-blog"/>
-                            </div>
-                            <div class="posts__elem__info" data-same-height="">
-                                <div class="posts__elem__info__inside">
-                                    <h2 class="posts__elem__info__title">
-                                        <a href="blog/what-are-webhooks-explained-example.htm">What are Webhooks? Easy Explanation &amp; Tutorial</a>
-                                    </h2>
-
-<div class="post__author--listing">
-    <div class="post__author__header clear">
-
-        <span class="post__author__name post__author__listing__name">Maxime Laboissonniere</span>
-
-            <span class="post__author__job"> | Full Stack Developer</span>
-    </div>
-</div>                                    <div class="posts__elem__info__sub">
-                                            <p>What are webhooks? They’re central to web development—but do you really know how to use them? Let’s go through a simple explanation with easy examples to get started.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="posts__elem clear block-link" data-same-height-elems="false">
-                    <div class="content-section">
-                        <div class="content-wrapper post-wrapper clear">
-                            <div class="posts__elem__image" data-same-height="">
-                                    <img src="media/203624/devden.png"
-                                         data-image-small="/media/203624/devden.png"
-                                         data-medium-image="/media/203624/devden.png"
-                                         data-large-image="/media/203624/devden.png" alt="solar-system-snipcart-blog"/>
-                            </div>
-                            <div class="posts__elem__info" data-same-height="">
-                                <div class="posts__elem__info__inside">
-                                    <h2 class="posts__elem__info__title">
-                                        <a href="blog/organize-css-modular-architecture.htm">Organize CSS with a Modular Architecture: OOCSS, BEM, SMACSS</a>
-                                    </h2>
-
-<div class="post__author--listing">
-    <div class="post__author__header clear">
-
-        <span class="post__author__name post__author__listing__name">Claudio Mendonca</span>
-
-            <span class="post__author__job"> | Founder and Frontend Designer at CCM Design Inc.</span>
-    </div>
-</div>                                    <div class="posts__elem__info__sub">
-                                            <p>Bye-bye spaghetti code! Learn how to organize your CSS architecture using foolproof methodologies like OOCSS, BEM, and SMACSS. Result? A scalable, modular CSS architecture.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="posts__elem clear block-link" data-same-height-elems="false">
-                    <div class="content-section">
-                        <div class="content-wrapper post-wrapper clear">
-                            <div class="posts__elem__image" data-same-height="">
-                                    <img src="media/1257/small_cart.png"
-                                         data-image-small="/media/1257/small_cart.png"
-                                         data-medium-image="/media/1257/small_cart.png"
-                                         data-large-image="/media/1257/small_cart.png" alt=""/>
-                            </div>
-                            <div class="posts__elem__info" data-same-height="">
-                                <div class="posts__elem__info__inside">
-                                    <h2 class="posts__elem__info__title">
-                                        <a href="blog/laravel-ecommerce-tutorial-pyrocms-demo.htm">Laravel E-Commerce: Complete Guide &amp; PyroCMS Example</a>
+                                        <a href="../laravel-ecommerce-tutorial-pyrocms-demo.htm">Laravel E-Commerce: Complete Guide &amp; PyroCMS Example</a>
                                     </h2>
 
 <div class="post__author--listing">
@@ -347,127 +80,7 @@
                     <div class="content-section">
                         <div class="content-wrapper post-wrapper clear">
                             <div class="posts__elem__image" data-same-height="">
-                                    <img src="media/203635/education.png"
-                                         data-image-small="/media/203635/education.png"
-                                         data-medium-image="/media/203635/education.png"
-                                         data-large-image="/media/203635/education.png" alt="education-snipcart-blog"/>
-                            </div>
-                            <div class="posts__elem__info" data-same-height="">
-                                <div class="posts__elem__info__inside">
-                                    <h2 class="posts__elem__info__title">
-                                        <a href="blog/learn-typescript-why-use-ts.htm">Should You Learn TypeScript? (Benefits &amp; Resources)</a>
-                                    </h2>
-
-<div class="post__author--listing">
-    <div class="post__author__header clear">
-
-        <span class="post__author__name post__author__listing__name">Mathieu Dionne</span>
-
-            <span class="post__author__job"> | Content &amp; Marketing</span>
-    </div>
-</div>                                    <div class="posts__elem__info__sub">
-                                            <p>Should you use TypeScript? Most likely. Read this to learn TypeScript and understand its place in the JavaScript ecosystem. BONUS: Full list of TypeScript resources.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="posts__elem clear block-link" data-same-height-elems="false">
-                    <div class="content-section">
-                        <div class="content-wrapper post-wrapper clear">
-                            <div class="posts__elem__image" data-same-height="">
-                                    <img src="media/1177/small_rocket.png"
-                                         data-image-small="/media/1177/small_rocket.png"
-                                         data-medium-image="/media/1177/small_rocket.png"
-                                         data-large-image="/media/1177/small_rocket.png" alt=""/>
-                            </div>
-                            <div class="posts__elem__info" data-same-height="">
-                                <div class="posts__elem__info__inside">
-                                    <h2 class="posts__elem__info__title">
-                                        <a href="blog/google-analytics-reports-client.htm">Google Analytics Reports for Clients (Examples &amp; Tools)</a>
-                                    </h2>
-
-<div class="post__author--listing">
-    <div class="post__author__header clear">
-
-        <span class="post__author__name post__author__listing__name">Jean-Philippe Boily</span>
-
-            <span class="post__author__job"> | Founder of Metrics Watch</span>
-    </div>
-</div>                                    <div class="posts__elem__info__sub">
-                                            <p>Google Analytics reports can literally save businesses, but you need to know where to look! In this post, we give you 5 examples of key GA reports that’ll put a smile on your clients’ face.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="posts__elem clear block-link" data-same-height-elems="false">
-                    <div class="content-section">
-                        <div class="content-wrapper post-wrapper clear">
-                            <div class="posts__elem__image" data-same-height="">
-                                    <img src="media/203625/jamstack.png"
-                                         data-image-small="/media/203625/jamstack.png"
-                                         data-medium-image="/media/203625/jamstack.png"
-                                         data-large-image="/media/203625/jamstack.png" alt="jamstack-snipcart-blog"/>
-                            </div>
-                            <div class="posts__elem__info" data-same-height="">
-                                <div class="posts__elem__info__inside">
-                                    <h2 class="posts__elem__info__title">
-                                        <a href="blog/11ty-javascript-static-site-generator-tutorial.htm">11ty: Intro &amp; Live Demo with a JavaScript Static Site Generator</a>
-                                    </h2>
-
-<div class="post__author--listing">
-    <div class="post__author__header clear">
-
-        <span class="post__author__name post__author__listing__name">Jean-Sebastien Tremblay</span>
-
-            <span class="post__author__job"> | Developer</span>
-    </div>
-</div>                                    <div class="posts__elem__info__sub">
-                                            <p>Ever heard of 11ty? It&#39;s a simple static site generator written in JavaScript. In this tutorial, we craft a small e-commerce app, exploring its set of features in the process.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="posts__elem clear block-link" data-same-height-elems="false">
-                    <div class="content-section">
-                        <div class="content-wrapper post-wrapper clear">
-                            <div class="posts__elem__image" data-same-height="">
-                                    <img src="media/1175/small_microphone.png"
-                                         data-image-small="/media/1175/small_microphone.png"
-                                         data-medium-image="/media/1175/small_microphone.png"
-                                         data-large-image="/media/1175/small_microphone.png" alt=""/>
-                            </div>
-                            <div class="posts__elem__info" data-same-height="">
-                                <div class="posts__elem__info__inside">
-                                    <h2 class="posts__elem__info__title">
-                                        <a href="blog/javascript-podcasts.htm">16 JavaScript Podcasts to Listen to in 2018</a>
-                                    </h2>
-
-<div class="post__author--listing">
-    <div class="post__author__header clear">
-
-        <span class="post__author__name post__author__listing__name">Fran&#231;ois Lanthier Nadeau</span>
-
-            <span class="post__author__job"> | Content &amp; Growth</span>
-    </div>
-</div>                                    <div class="posts__elem__info__sub">
-                                            <p>Discover the best JavaScript podcasts we found in 2018. This list contains podcast ratings, descriptions, sample episodes, and quick links to subscribe to the shows. Happy listening!</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="posts__elem clear block-link" data-same-height-elems="false">
-                    <div class="content-section">
-                        <div class="content-wrapper post-wrapper clear">
-                            <div class="posts__elem__image" data-same-height="">
-                                    <img src="media/1179/small_toolbox.png"
+                                    <img src="/media/1179/small_toolbox.png"
                                          data-image-small="/media/1179/small_toolbox.png"
                                          data-medium-image="/media/1179/small_toolbox.png"
                                          data-large-image="/media/1179/small_toolbox.png" alt=""/>
@@ -475,7 +88,7 @@
                             <div class="posts__elem__info" data-same-height="">
                                 <div class="posts__elem__info__inside">
                                     <h2 class="posts__elem__info__title">
-                                        <a href="blog/reactjs-wordpress-rest-api-example.htm">Tying a React SPA to WordPress as a Backend [w/ WP REST API]</a>
+                                        <a href="../reactjs-wordpress-rest-api-example.htm">Tying a React SPA to WordPress as a Backend [w/ WP REST API]</a>
                                     </h2>
 
 <div class="post__author--listing">
@@ -497,37 +110,7 @@
                     <div class="content-section">
                         <div class="content-wrapper post-wrapper clear">
                             <div class="posts__elem__image" data-same-height="">
-                                    <img src="media/203790/small_monitor.png"
-                                         data-image-small="/media/203790/small_monitor.png"
-                                         data-medium-image="/media/203790/small_monitor.png"
-                                         data-large-image="/media/203790/small_monitor.png" alt=""/>
-                            </div>
-                            <div class="posts__elem__info" data-same-height="">
-                                <div class="posts__elem__info__inside">
-                                    <h2 class="posts__elem__info__title">
-                                        <a href="blog/vue-js-plugin.htm">Getting Started with Vue.js Plugins [Production-Ready Example]</a>
-                                    </h2>
-
-<div class="post__author--listing">
-    <div class="post__author__header clear">
-
-        <span class="post__author__name post__author__listing__name">Francis Cote</span>
-
-            <span class="post__author__job"> | Full Stack Developer</span>
-    </div>
-</div>                                    <div class="posts__elem__info__sub">
-                                            <p>Vue.js plugins are essential for developers working with this JS framework. This post explains what they are, and how to craft a production-ready Vue plugin in &lt; 1 hour.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="posts__elem clear block-link" data-same-height-elems="false">
-                    <div class="content-section">
-                        <div class="content-wrapper post-wrapper clear">
-                            <div class="posts__elem__image" data-same-height="">
-                                    <img src="media/1257/small_cart.png"
+                                    <img src="/media/1257/small_cart.png"
                                          data-image-small="/media/1257/small_cart.png"
                                          data-medium-image="/media/1257/small_cart.png"
                                          data-large-image="/media/1257/small_cart.png" alt=""/>
@@ -535,7 +118,7 @@
                             <div class="posts__elem__info" data-same-height="">
                                 <div class="posts__elem__info__inside">
                                     <h2 class="posts__elem__info__title">
-                                        <a href="blog/golang-ecommerce-ponzu-cms-demo.htm">A Guide to Golang E-Commerce (w/ Go-Powered CMS Tutorial)</a>
+                                        <a href="../golang-ecommerce-ponzu-cms-demo.htm">A Guide to Golang E-Commerce (w/ Go-Powered CMS Tutorial)</a>
                                     </h2>
 
 <div class="post__author--listing">
@@ -557,45 +140,15 @@
                     <div class="content-section">
                         <div class="content-wrapper post-wrapper clear">
                             <div class="posts__elem__image" data-same-height="">
-                                    <img src="media/203624/devden.png"
-                                         data-image-small="/media/203624/devden.png"
-                                         data-medium-image="/media/203624/devden.png"
-                                         data-large-image="/media/203624/devden.png" alt="solar-system-snipcart-blog"/>
+                                    <img src="/media/203790/small_monitor.png"
+                                         data-image-small="/media/203790/small_monitor.png"
+                                         data-medium-image="/media/203790/small_monitor.png"
+                                         data-large-image="/media/203790/small_monitor.png" alt=""/>
                             </div>
                             <div class="posts__elem__info" data-same-height="">
                                 <div class="posts__elem__info__inside">
                                     <h2 class="posts__elem__info__title">
-                                        <a href="blog/javascript-beginner-intro-exercises.htm">JavaScript Beginner? Start Here (Exercises Included)</a>
-                                    </h2>
-
-<div class="post__author--listing">
-    <div class="post__author__header clear">
-
-        <span class="post__author__name post__author__listing__name">Francis Cote</span>
-
-            <span class="post__author__job"> | Full Stack Developer</span>
-    </div>
-</div>                                    <div class="posts__elem__info__sub">
-                                            <p>Clueless JavaScript beginner? It’s okay—I’ve been there! In this friendly intro to JS, I break down the language’s ecosystem &amp; mechanics + provide 2 JavaScript exercises for beginners.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="posts__elem clear block-link" data-same-height-elems="false">
-                    <div class="content-section">
-                        <div class="content-wrapper post-wrapper clear">
-                            <div class="posts__elem__image" data-same-height="">
-                                    <img src="media/203791/small_knife.png"
-                                         data-image-small="/media/203791/small_knife.png"
-                                         data-medium-image="/media/203791/small_knife.png"
-                                         data-large-image="/media/203791/small_knife.png" alt=""/>
-                            </div>
-                            <div class="posts__elem__info" data-same-height="">
-                                <div class="posts__elem__info__inside">
-                                    <h2 class="posts__elem__info__title">
-                                        <a href="blog/vue-js-seo-prerender-example_2.htm">Build a Vue.js SEO-Friendly SPA with Prerender &amp; Other Tips</a>
+                                        <a href="../django-ecommerce-tutorial-wagtail-cms.htm">E-Commerce for Django Developers (with Wagtail Tutorial)</a>
                                     </h2>
 
 <div class="post__author--listing">
@@ -606,7 +159,7 @@
             <span class="post__author__job"> | Co-Founder &amp; Lead Engineer</span>
     </div>
 </div>                                    <div class="posts__elem__info__sub">
-                                            <p>Learn how to build a Vue.js SEO-friendly SPA with prerendering, server-side rendering &amp; other general SEO tips. Live prerender demo included!</p>
+                                            <p>Why you should use Django for e-commerce and the different tools available to do so. Bonus: a full Wagtail tutorial for a lean, mean e-commerce set up! Live demo &amp; code repo included.</p>
                                     </div>
                                 </div>
                             </div>
@@ -617,15 +170,315 @@
                     <div class="content-section">
                         <div class="content-wrapper post-wrapper clear">
                             <div class="posts__elem__image" data-same-height="">
-                                    <img src="media/1178/small_sofa.png"
-                                         data-image-small="/media/1178/small_sofa.png"
-                                         data-medium-image="/media/1178/small_sofa.png"
-                                         data-large-image="/media/1178/small_sofa.png" alt=""/>
+                                    <img src="/media/1179/small_toolbox.png"
+                                         data-image-small="/media/1179/small_toolbox.png"
+                                         data-medium-image="/media/1179/small_toolbox.png"
+                                         data-large-image="/media/1179/small_toolbox.png" alt=""/>
                             </div>
                             <div class="posts__elem__info" data-same-height="">
                                 <div class="posts__elem__info__inside">
                                     <h2 class="posts__elem__info__title">
-                                        <a href="blog/case-study-locomotive-kvell.htm">Case Study: Locomotive&#39;s Superb Snipcart Integration</a>
+                                        <a href="../static-ecommerce-gatsby-datocms.htm">Creating a Static E-Commerce Website with Snipcart, GatsbyJS and DatoCMS</a>
+                                    </h2>
+
+<div class="post__author--listing">
+    <div class="post__author__header clear">
+
+        <span class="post__author__name post__author__listing__name">Stefano Verna</span>
+
+            <span class="post__author__job"> | CEO, DatoCMS</span>
+    </div>
+</div>                                    <div class="posts__elem__info__sub">
+                                            <p>A step by step guide to create a static e-commerce website using Snipcart on a Gatsby and DatoCMS project.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="posts__elem clear block-link" data-same-height-elems="false">
+                    <div class="content-section">
+                        <div class="content-wrapper post-wrapper clear">
+                            <div class="posts__elem__image" data-same-height="">
+                                    <img src="/media/203791/small_knife.png"
+                                         data-image-small="/media/203791/small_knife.png"
+                                         data-medium-image="/media/203791/small_knife.png"
+                                         data-large-image="/media/203791/small_knife.png" alt=""/>
+                            </div>
+                            <div class="posts__elem__info" data-same-height="">
+                                <div class="posts__elem__info__inside">
+                                    <h2 class="posts__elem__info__title">
+                                        <a href="../drupal-headless-architecture-tutorial.htm">Drupal Headless with React-Like Framework [Live Demo]</a>
+                                    </h2>
+
+<div class="post__author--listing">
+    <div class="post__author__header clear">
+
+        <span class="post__author__name post__author__listing__name">Maxime Laboissonniere</span>
+
+            <span class="post__author__job"> | Full Stack Developer</span>
+    </div>
+</div>                                    <div class="posts__elem__info__sub">
+                                            <p>Read this introduction to Drupal headless architecture to know more about the benefits of decoupled CMS. We also get technical, with a live demo of Drupal as the backend for a small e-commerce app powered by the React-like frontend framework that is Inferno.js.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="posts__elem clear block-link" data-same-height-elems="false">
+                    <div class="content-section">
+                        <div class="content-wrapper post-wrapper clear">
+                            <div class="posts__elem__image" data-same-height="">
+                                    <img src="/media/1179/small_toolbox.png"
+                                         data-image-small="/media/1179/small_toolbox.png"
+                                         data-medium-image="/media/1179/small_toolbox.png"
+                                         data-large-image="/media/1179/small_toolbox.png" alt=""/>
+                            </div>
+                            <div class="posts__elem__info" data-same-height="">
+                                <div class="posts__elem__info__inside">
+                                    <h2 class="posts__elem__info__title">
+                                        <a href="../contentstack-headless-cms-ecommerce.htm">Contentstack Tutorial: E-Commerce Integration with Headless CMS</a>
+                                    </h2>
+
+<div class="post__author--listing">
+    <div class="post__author__header clear">
+
+        <span class="post__author__name post__author__listing__name">Mayank Mishra</span>
+
+            <span class="post__author__job"> | Director of Engineering at Contentstack</span>
+    </div>
+</div>                                    <div class="posts__elem__info__sub">
+                                            <p>Read this guest post from the lead engineer at Contentstack Mayank Mishra to learn about this cool headless CMS. Mayank shows every step to get Snipcart running with Contentstack in minutes to craft a smooth e-commerce platform.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="posts__elem clear block-link" data-same-height-elems="false">
+                    <div class="content-section">
+                        <div class="content-wrapper post-wrapper clear">
+                            <div class="posts__elem__image" data-same-height="">
+                                    <img src="/media/1179/small_toolbox.png"
+                                         data-image-small="/media/1179/small_toolbox.png"
+                                         data-medium-image="/media/1179/small_toolbox.png"
+                                         data-large-image="/media/1179/small_toolbox.png" alt=""/>
+                            </div>
+                            <div class="posts__elem__info" data-same-height="">
+                                <div class="posts__elem__info__inside">
+                                    <h2 class="posts__elem__info__title">
+                                        <a href="../react-graphql-grav-cms-headless-tutorial.htm">Grav as Headless CMS Tied to Gatsby with GraphQL Schema</a>
+                                    </h2>
+
+<div class="post__author--listing">
+    <div class="post__author__header clear">
+
+        <span class="post__author__name post__author__listing__name">Charles Ouellet</span>
+
+            <span class="post__author__job"> | Co-Founder &amp; Lead Engineer</span>
+    </div>
+</div>                                    <div class="posts__elem__info__sub">
+                                            <p>In this tutorial, we use Gatsby for React-powered static site generation with GraphQL schema to pull data from a headless CMS. The backend is handled by Grav CMS used solely for content management, as a decoupled CMS. React &amp; GraphQL is a powerful combination for the frontend.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="posts__elem clear block-link" data-same-height-elems="false">
+                    <div class="content-section">
+                        <div class="content-wrapper post-wrapper clear">
+                            <div class="posts__elem__image" data-same-height="">
+                                    <img src="/media/203791/small_knife.png"
+                                         data-image-small="/media/203791/small_knife.png"
+                                         data-medium-image="/media/203791/small_knife.png"
+                                         data-large-image="/media/203791/small_knife.png" alt=""/>
+                            </div>
+                            <div class="posts__elem__info" data-same-height="">
+                                <div class="posts__elem__info__inside">
+                                    <h2 class="posts__elem__info__title">
+                                        <a href="../graphql-nodejs-express-tutorial_2.htm">GraphQL &amp; Node.js Express Tutorial: GraphCMS E-Commerce App</a>
+                                    </h2>
+
+<div class="post__author--listing">
+    <div class="post__author__header clear">
+
+        <span class="post__author__name post__author__listing__name">Charles Ouellet</span>
+
+            <span class="post__author__job"> | Co-Founder &amp; Lead Engineer</span>
+    </div>
+</div>                                    <div class="posts__elem__info__sub">
+                                            <p>Combine GraphQL &amp; Node.js into a powerful e-commerce app. Discover tools like GraphCMS, Express &amp; Apollo in the process.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="posts__elem clear block-link" data-same-height-elems="false">
+                    <div class="content-section">
+                        <div class="content-wrapper post-wrapper clear">
+                            <div class="posts__elem__image" data-same-height="">
+                                    <img src="/media/203791/small_knife.png"
+                                         data-image-small="/media/203791/small_knife.png"
+                                         data-medium-image="/media/203791/small_knife.png"
+                                         data-large-image="/media/203791/small_knife.png" alt=""/>
+                            </div>
+                            <div class="posts__elem__info" data-same-height="">
+                                <div class="posts__elem__info__inside">
+                                    <h2 class="posts__elem__info__title">
+                                        <a href="../cockpit-cms-tutorial-nuxtjs.htm">A Tutorial to Bundle Cockpit CMS &amp; Nuxt.js in a full JAMstack</a>
+                                    </h2>
+
+<div class="post__author--listing">
+    <div class="post__author__header clear">
+
+        <span class="post__author__name post__author__listing__name">Charles Ouellet</span>
+
+            <span class="post__author__job"> | Co-Founder &amp; Lead Engineer</span>
+    </div>
+</div>                                    <div class="posts__elem__info__sub">
+                                            <p>Read this Cockpit CMS &amp; Nuxt.js tutorial to learn how to bundle a full JAMstack project. Headless CMS + static app generation with a powerful Vue.js framework.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="posts__elem clear block-link" data-same-height-elems="false">
+                    <div class="content-section">
+                        <div class="content-wrapper post-wrapper clear">
+                            <div class="posts__elem__image" data-same-height="">
+                                    <img src="/media/1179/small_toolbox.png"
+                                         data-image-small="/media/1179/small_toolbox.png"
+                                         data-medium-image="/media/1179/small_toolbox.png"
+                                         data-large-image="/media/1179/small_toolbox.png" alt=""/>
+                            </div>
+                            <div class="posts__elem__info" data-same-height="">
+                                <div class="posts__elem__info__inside">
+                                    <h2 class="posts__elem__info__title">
+                                        <a href="../integrating-e-commerce-on-statamic-flat-file-cms_2.htm">Integrating E-Commerce on Statamic Flat File CMS</a>
+                                    </h2>
+
+<div class="post__author--listing">
+    <div class="post__author__header clear">
+
+        <span class="post__author__name post__author__listing__name">Charles Ouellet</span>
+
+            <span class="post__author__job"> | Co-Founder &amp; Lead Engineer</span>
+    </div>
+</div>                                    <div class="posts__elem__info__sub">
+                                            <p>In this blog post, our developer Charles shows you how to integrate our e-commerce solution to the popular flat-file CMS Statamic.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="posts__elem clear block-link" data-same-height-elems="false">
+                    <div class="content-section">
+                        <div class="content-wrapper post-wrapper clear">
+                            <div class="posts__elem__image" data-same-height="">
+                                    <img src="/media/203790/small_monitor.png"
+                                         data-image-small="/media/203790/small_monitor.png"
+                                         data-medium-image="/media/203790/small_monitor.png"
+                                         data-large-image="/media/203790/small_monitor.png" alt=""/>
+                            </div>
+                            <div class="posts__elem__info" data-same-height="">
+                                <div class="posts__elem__info__inside">
+                                    <h2 class="posts__elem__info__title">
+                                        <a href="../joomla-tutorial-developers-ecommerce-plugins.htm">Improved E-Commerce Integration for Joomla! Developers </a>
+                                    </h2>
+
+<div class="post__author--listing">
+    <div class="post__author__header clear">
+
+        <span class="post__author__name post__author__listing__name">Jean-Sebastien Tremblay</span>
+
+            <span class="post__author__job"> | Developer</span>
+    </div>
+</div>                                    <div class="posts__elem__info__sub">
+                                            <p>Use this Joomla! tutorial to craft an e-commerce website with a developer-oriented approach on the popular open-source CMS.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="posts__elem clear block-link" data-same-height-elems="false">
+                    <div class="content-section">
+                        <div class="content-wrapper post-wrapper clear">
+                            <div class="posts__elem__image" data-same-height="">
+                                    <img src="/media/1179/small_toolbox.png"
+                                         data-image-small="/media/1179/small_toolbox.png"
+                                         data-medium-image="/media/1179/small_toolbox.png"
+                                         data-large-image="/media/1179/small_toolbox.png" alt=""/>
+                            </div>
+                            <div class="posts__elem__info" data-same-height="">
+                                <div class="posts__elem__info__inside">
+                                    <h2 class="posts__elem__info__title">
+                                        <a href="../flat-file-cms-php-kirby-tutorial_2.htm">Going &quot;Flat File&quot;: Kirby CMS Tutorial &amp; E-Commerce on a Lightweight PHP CMS</a>
+                                    </h2>
+
+<div class="post__author--listing">
+    <div class="post__author__header clear">
+
+        <span class="post__author__name post__author__listing__name">Maxime Laboissonniere</span>
+
+            <span class="post__author__job"> | Full Stack Developer</span>
+    </div>
+</div>                                    <div class="posts__elem__info__sub">
+                                            <p>Learn the advantages of flat file CMS vs. database-driven systems and how to build an e-commerce site with Kirby, a lightweight PHP CMS.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="posts__elem clear block-link" data-same-height-elems="false">
+                    <div class="content-section">
+                        <div class="content-wrapper post-wrapper clear">
+                            <div class="posts__elem__image" data-same-height="">
+                                    <img src="/media/203791/small_knife.png"
+                                         data-image-small="/media/203791/small_knife.png"
+                                         data-medium-image="/media/203791/small_knife.png"
+                                         data-large-image="/media/203791/small_knife.png" alt=""/>
+                            </div>
+                            <div class="posts__elem__info" data-same-height="">
+                                <div class="posts__elem__info__inside">
+                                    <h2 class="posts__elem__info__title">
+                                        <a href="../intro-api-first-headless-cms-directus.htm">An Introduction to API-First CMS with Directus&#39; Open Source, Headless CMS</a>
+                                    </h2>
+
+<div class="post__author--listing">
+    <div class="post__author__header clear">
+
+        <span class="post__author__name post__author__listing__name">Maxime Laboissonniere</span>
+
+            <span class="post__author__job"> | Full Stack Developer</span>
+    </div>
+</div>                                    <div class="posts__elem__info__sub">
+                                            <p>Learn what API-first, decoupled CMS are and how to build a web app with dynamic content managed in Directus, an open source headless CMS.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="posts__elem clear block-link" data-same-height-elems="false">
+                    <div class="content-section">
+                        <div class="content-wrapper post-wrapper clear">
+                            <div class="posts__elem__image" data-same-height="">
+                                    <img src="/media/1257/small_cart.png"
+                                         data-image-small="/media/1257/small_cart.png"
+                                         data-medium-image="/media/1257/small_cart.png"
+                                         data-large-image="/media/1257/small_cart.png" alt=""/>
+                            </div>
+                            <div class="posts__elem__info" data-same-height="">
+                                <div class="posts__elem__info__inside">
+                                    <h2 class="posts__elem__info__title">
+                                        <a href="../snipcart-integrations-plugins-roundup_2.htm">Snipcart Integrations &amp; Plugins Roundup: 2016 Edition</a>
                                     </h2>
 
 <div class="post__author--listing">
@@ -636,7 +489,157 @@
             <span class="post__author__job"> | Content &amp; Growth</span>
     </div>
 </div>                                    <div class="posts__elem__info__sub">
-                                            <p>See how Locomotive, a killer Montreal agency, integrated Snipcart with a custom CMS to create a stunning e-commerce experience.</p>
+                                            <p>Discover all existing Snipcart integrations thus far: JAMstack/serverless &amp; CMS e-commerce tutorials, plus dedicated third party plugins.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="posts__elem clear block-link" data-same-height-elems="false">
+                    <div class="content-section">
+                        <div class="content-wrapper post-wrapper clear">
+                            <div class="posts__elem__image" data-same-height="">
+                                    <img src="/media/1257/small_cart.png"
+                                         data-image-small="/media/1257/small_cart.png"
+                                         data-medium-image="/media/1257/small_cart.png"
+                                         data-large-image="/media/1257/small_cart.png" alt=""/>
+                            </div>
+                            <div class="posts__elem__info" data-same-height="">
+                                <div class="posts__elem__info__inside">
+                                    <h2 class="posts__elem__info__title">
+                                        <a href="../pagekit-cms-ecommerce-demo.htm">Building a Pagekit CMS E-commerce Demo with a Products Extension</a>
+                                    </h2>
+
+<div class="post__author--listing">
+    <div class="post__author__header clear">
+
+        <span class="post__author__name post__author__listing__name">Maxime Laboissonniere</span>
+
+            <span class="post__author__job"> | Full Stack Developer</span>
+    </div>
+</div>                                    <div class="posts__elem__info__sub">
+                                            <p>Enable e-commerce on Pagekit CMS with a custom Snipcart extension. Step-by-step tutorial, code snippets, and live demo included!</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="posts__elem clear block-link" data-same-height-elems="false">
+                    <div class="content-section">
+                        <div class="content-wrapper post-wrapper clear">
+                            <div class="posts__elem__image" data-same-height="">
+                                    <img src="/media/1179/small_toolbox.png"
+                                         data-image-small="/media/1179/small_toolbox.png"
+                                         data-medium-image="/media/1179/small_toolbox.png"
+                                         data-large-image="/media/1179/small_toolbox.png" alt=""/>
+                            </div>
+                            <div class="posts__elem__info" data-same-height="">
+                                <div class="posts__elem__info__inside">
+                                    <h2 class="posts__elem__info__title">
+                                        <a href="../ecommerce-landing-page-unbounce.htm">Create an E-Commerce Landing Page with Unbounce</a>
+                                    </h2>
+
+<div class="post__author--listing">
+    <div class="post__author__header clear">
+
+        <span class="post__author__name post__author__listing__name">Fran&#231;ois Lanthier Nadeau</span>
+
+            <span class="post__author__job"> | Content &amp; Growth</span>
+    </div>
+</div>                                    <div class="posts__elem__info__sub">
+                                            <p>Quickly learn how to create an e-commerce landing page with Unbounce and Snipcart&#39;s simple shopping cart platform, in three easy steps.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="posts__elem clear block-link" data-same-height-elems="false">
+                    <div class="content-section">
+                        <div class="content-wrapper post-wrapper clear">
+                            <div class="posts__elem__image" data-same-height="">
+                                    <img src="/media/1257/small_cart.png"
+                                         data-image-small="/media/1257/small_cart.png"
+                                         data-medium-image="/media/1257/small_cart.png"
+                                         data-large-image="/media/1257/small_cart.png" alt=""/>
+                            </div>
+                            <div class="posts__elem__info" data-same-height="">
+                                <div class="posts__elem__info__inside">
+                                    <h2 class="posts__elem__info__title">
+                                        <a href="../processwire-ecommerce-tutorial.htm">Quick Processwire E-Commerce Tutorial: Lean Store on PHP CMS</a>
+                                    </h2>
+
+<div class="post__author--listing">
+    <div class="post__author__header clear">
+
+        <span class="post__author__name post__author__listing__name">Maxime Laboissonniere</span>
+
+            <span class="post__author__job"> | Full Stack Developer</span>
+    </div>
+</div>                                    <div class="posts__elem__info__sub">
+                                            <p>Learn how to add a customizable layer of e-commerce to Processwire&#39;s PHP CMS with Snipcart, an HTML/JavaScript shopping cart platform.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="posts__elem clear block-link" data-same-height-elems="false">
+                    <div class="content-section">
+                        <div class="content-wrapper post-wrapper clear">
+                            <div class="posts__elem__image" data-same-height="">
+                                    <img src="/media/1257/small_cart.png"
+                                         data-image-small="/media/1257/small_cart.png"
+                                         data-medium-image="/media/1257/small_cart.png"
+                                         data-large-image="/media/1257/small_cart.png" alt=""/>
+                            </div>
+                            <div class="posts__elem__info" data-same-height="">
+                                <div class="posts__elem__info__inside">
+                                    <h2 class="posts__elem__info__title">
+                                        <a href="../tumblr-shopping-cart-quick-ecommerce_2.htm">A Tumblr Shopping Cart for Quick E-Commerce (&lt; 2 Minutes)!</a>
+                                    </h2>
+
+<div class="post__author--listing">
+    <div class="post__author__header clear">
+
+        <span class="post__author__name post__author__listing__name">Fran&#231;ois Lanthier Nadeau</span>
+
+            <span class="post__author__job"> | Content &amp; Growth</span>
+    </div>
+</div>                                    <div class="posts__elem__info__sub">
+                                            <p>Set up a Tumblr shopping cart on your site and enable e-commerce in less than two minutes (if you&#39;re slow)!</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="posts__elem clear block-link" data-same-height-elems="false">
+                    <div class="content-section">
+                        <div class="content-wrapper post-wrapper clear">
+                            <div class="posts__elem__image" data-same-height="">
+                                    <img src="/media/1257/small_cart.png"
+                                         data-image-small="/media/1257/small_cart.png"
+                                         data-medium-image="/media/1257/small_cart.png"
+                                         data-large-image="/media/1257/small_cart.png" alt=""/>
+                            </div>
+                            <div class="posts__elem__info" data-same-height="">
+                                <div class="posts__elem__info__inside">
+                                    <h2 class="posts__elem__info__title">
+                                        <a href="../adobe-muse-ecommerce-shopping-cart.htm">Adobe Muse E-Commerce: Quick Shopping Cart Integration</a>
+                                    </h2>
+
+<div class="post__author--listing">
+    <div class="post__author__header clear">
+
+        <span class="post__author__name post__author__listing__name">Maxime Laboissonniere</span>
+
+            <span class="post__author__job"> | Full Stack Developer</span>
+    </div>
+</div>                                    <div class="posts__elem__info__sub">
+                                            <p>Enable Adobe Muse e-commerce on your site with a quick shopping cart integration. Two simple steps and you&#39;ll be ready to sell stuff!</p>
                                     </div>
                                 </div>
                             </div>
@@ -650,7 +653,7 @@
 
     <div class="posts__pagination stretchable-section clear" data-stretch="7">
         <div class="content-section">
-                            <a href="blog_3.htm" class="posts__pagination__button--right rounded-button">Older articles<i class="icon-next posts__pagination__button__icon"></i></a>
+                            <a href="cms_2.htm" class="posts__pagination__button--right rounded-button">Older articles<i class="icon-next posts__pagination__button__icon"></i></a>
         </div>
     </div>
 
@@ -683,7 +686,7 @@
                    data-msg-invalid="Invalid email address"
                    formnovalidate/>
 
-            <input type="hidden" name="TimeStamp" value="NjiluEGd2plII22csrZd1agypE/KNOfdiMjVoKAnlK4="/>
+            <input type="hidden" name="TimeStamp" value="Dmyf9rIFCD4I/SX2GSualddwYO03QYp0ApBZhLwRypU="/>
             <input type="hidden" name="Source" value="fromblog"/>
         
             <button type="submit" class="newsletter-subscribe__form__button rounded-button">Send me your geek stuff!</button>
@@ -707,5 +710,9 @@
     </div>
 </div>
 </div>
-</main>
+
+
+
+
+    </main>
 </template>
